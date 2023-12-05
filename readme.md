@@ -1,3 +1,3 @@
 # Kurs Java
 ## Um was geht es?
-* Es geht darum, Java zu lernen
+* Es geht darum, Java zu lernen.
