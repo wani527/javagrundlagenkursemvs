@@ -69,6 +69,19 @@ public class A_Sprunganweisungen {
         //    program should stop. (Let the user know, that "exit" will exit
         //    the program
         Scanner textScanner = new Scanner(System.in);
+        String input2;
+        thewhileloop2:
+        while (true) {
+            System.out.print("You can exit this program anytime with \"exit\"\nWhat is making your life difficult now?\n");
+            input2 = textScanner.nextLine(); /*
+            Exception in thread "main" java.util.NoSuchElementException: No line found
+            at java.base/java.util.Scanner.nextLine(Scanner.java:1660)
+            at A_Sprunganweisungen.main(A_Sprunganweisungen.java:76)
+            */
+            if (input2 == "exit") {
+                break thewhileloop2;
+            }
+        }
         
         // Sample output:
         // You can exit this program anytime with "exit"
@@ -161,7 +174,7 @@ public class A_Sprunganweisungen {
         // Use the continue statement to skip non-prime numbers.
         // Print the amount of prime numbers and the prime numbers.
         // Also print the amount of non prime numbers.
-        
+        /*
         System.out.print("Prime numbers from 100 to 200: ");
         int primesCounter = 0;
         int nonPrimesCounter = 0;
@@ -201,6 +214,7 @@ public class A_Sprunganweisungen {
         // Your solution here
         
         // <eSystem.out.println("The Greatest Common Divisor (GCD) of " + number1 + " and " + number2 + " is: " + gcd);
+        */
         
     }
 }
