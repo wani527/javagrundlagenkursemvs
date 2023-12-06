@@ -50,7 +50,6 @@ public class A_Sprunganweisungen {
 
         System.out.println("The sum of all the numbers is: " + sum);
 
-        numberScanner.close();
         // Sample output:
         // Input number 0:
         // 0
@@ -70,16 +69,14 @@ public class A_Sprunganweisungen {
         //    the program
         Scanner textScanner = new Scanner(System.in);
         String input2;
-        thewhileloop2:
+        thewhileloop2:  
         while (true) {
             System.out.print("You can exit this program anytime with \"exit\"\nWhat is making your life difficult now?\n");
-            input2 = textScanner.nextLine(); /*
-            Exception in thread "main" java.util.NoSuchElementException: No line found
-            at java.base/java.util.Scanner.nextLine(Scanner.java:1660)
-            at A_Sprunganweisungen.main(A_Sprunganweisungen.java:76)
-            */
-            if (input2 == "exit") {
+            input2 = textScanner.nextLine();
+            if (input2.equals("exit")) {
                 break thewhileloop2;
+            } else {
+                System.out.println(input2 + ". Uff, thats a touch one!");
             }
         }
         
