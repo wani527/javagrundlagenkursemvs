@@ -1,9 +1,9 @@
-public class Temperatur_ {
-    public Temperatur_() {
+public class Temperatur {
+    public Temperatur() {
             float temperatur = 18.32f;
             System.out.println(temperatur);
     }
-    public Temperatur_(float temperatur) {
+    public Temperatur(float temperatur) {
             System.out.println(temperatur);
     }
 }
