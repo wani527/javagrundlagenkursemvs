@@ -19,8 +19,14 @@ public class Car {
     public void accelerate() {
         this.currentSpeedInKMH += 10;
     }
+    public void accelerate(short amount) {
+        this.currentSpeedInKMH += amount;
+    }
     public void brake() {
         this.currentSpeedInKMH -= 10;
+    }
+    public void brake(short amount) {
+        this.currentSpeedInKMH -= amount;
     }
     public void turnLightsOn() {
         this.lightsOn = true;
