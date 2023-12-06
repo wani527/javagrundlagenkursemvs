@@ -75,6 +75,8 @@ public class A_Sprunganweisungen {
             input2 = textScanner.nextLine();
             if (input2.equals("exit")) {
                 break thewhileloop2;
+            } else if (input2.equals("")) {
+                continue;
             } else {
                 System.out.println(input2 + ". Uff, thats a touch one!");
             }
