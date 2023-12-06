@@ -1,5 +1,6 @@
 # Kurs Java
 ## Um was geht es?
 * Es geht darum, Java zu lernen
-* Dies sind Persönliche Übungen, der Kurs ist nicht hier.
+* Hier sind nur die Aufgaben, Die ich löse/gelöst habe, der Kurs ist nicht hier.
+* Der Kurs selbst ist nicht von mir, ich bin nur ein Teilnehmer des Kurses
 * Es ist nicht relevant für die Öffentlichkeit
