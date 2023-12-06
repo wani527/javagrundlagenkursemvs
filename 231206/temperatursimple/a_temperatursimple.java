@@ -1,5 +1,6 @@
-public class a_temperatursimple {
+public class A_temperatursimple {
     public static void main(String[] args) {
-        temperatur temp1 = new temperatur();
+        Temperatur temp1 = new Temperatur();
+        Temperatur temp2 = new Temperatur(18.322342156342525768345768453f);
     }
 }
