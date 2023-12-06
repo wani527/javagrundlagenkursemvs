@@ -2,7 +2,7 @@ public class Car {
     String color = "";
     String brand = "";
     public short currentSpeedInKMH = 0;
-    public boolean lightsOn = true;
+    public boolean lightsOn = false;
     public Car() {
     }
     public Car(String color) {
@@ -15,6 +15,18 @@ public class Car {
     }
     public void honk() {
         System.out.println("honk honk");
+    }
+    public void accelerate() {
+        this.currentSpeedInKMH += 10;
+    }
+    public void brake() {
+        this.currentSpeedInKMH -= 10;
+    }
+    public void turnLightsOn() {
+        this.lightsOn = true;
+    }
+    public void turnLightsOff() {
+        this.lightsOn = false;
     }
 
 }

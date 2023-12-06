@@ -216,6 +216,8 @@ public class A_Sprunganweisungen {
         
         // <eSystem.out.println("The Greatest Common Divisor (GCD) of " + number1 + " and " + number2 + " is: " + gcd);
         */
-        
+        numberScanner.close();
+        textScanner.close();    
     }
+
 }
