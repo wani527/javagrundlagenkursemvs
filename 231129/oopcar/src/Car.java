@@ -1,6 +1,8 @@
 public class Car {
     String color = "";
     String brand = "";
+    public short currentSpeedInKMH = 0;
+    public boolean lightsOn = true;
     public Car() {
     }
     public Car(String color) {
@@ -14,6 +16,5 @@ public class Car {
     public void honk() {
         System.out.println("honk honk");
     }
-
 
 }
