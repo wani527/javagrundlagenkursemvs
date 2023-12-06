@@ -113,6 +113,8 @@ public class A_Sprunganweisungen {
         // Type in a number: (0=exit)
         // 0
         // Exiting exercise 3
+
+
         //----------------------------------------------------------------------
         // 4. Write a program which asks the user for a number
         //    If the user writes 0, then the program exits

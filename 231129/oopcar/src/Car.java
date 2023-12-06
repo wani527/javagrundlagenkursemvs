@@ -6,10 +6,14 @@ public class Car {
     public Car(String color) {
         this.color = color;
     }
-    public Car(String colsor, String brand) {
+    public Car(String color, String brand) {
         this.color = color;
         this.brand = brand;
         System.out.println("ssss");
     }
+    public void honk() {
+        System.out.println("honk honk");
+    }
+
 
 }
