@@ -39,6 +39,6 @@ public class Temperatur {
         temperaturFahrenheit = (this.temperaturCelsius * 1.8f) + 32f;
     }
     public void calculateKelvin() {
-        temperaturKelvin = this.temperaturCelsius - 273.15f;
+        temperaturKelvin = this.temperaturCelsius + 273.15f;
     }
 }
