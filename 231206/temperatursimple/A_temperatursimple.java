@@ -8,6 +8,9 @@ public class A_temperatursimple {
         temp2.printCelsius();
         Temperatur temp3 = new Temperatur(temperaturscanner.nextFloat());
         temp3.printHotOrColdCelsius();
+        temp3.calculatefahrenheit();
+        temp3.printFahrenheit();
+        temp3.printHotOrColdFahrenheit();
         temperaturscanner.close();
     }
 }
