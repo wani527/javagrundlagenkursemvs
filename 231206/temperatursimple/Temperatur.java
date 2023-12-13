@@ -21,17 +21,17 @@ public class Temperatur {
         System.out.println(this.temperaturKelvin + "°K");
     }
 
-    public void printHotOrColdCelsius() {
-        if (this.temperaturCelsius > 24) {
-            System.out.println("It's hot: " + this.temperaturCelsius + "° Celsius!");
+    public void printHotOrColdCelsius(float temperatur) {
+        if (temperatur > 24) {
+            System.out.println("It's hot: " + temperatur + "° Celsius!");
         } else {
-            System.out.println("Its freezing: " + this.temperaturCelsius + "° Celsius!");
+            System.out.println("Its freezing: " + temperatur + "° Celsius!");
         }
     }
-    public void printHotOrColdFahrenheit() {
+    public void printHotOrColdFahrenheit(float temperatur) {
         System.err.println("ERROR: printHotOrColdFahrenheit not implemented! Ignoring");
     }
-    public void printHotOrColdKelvin() {
+    public void printHotOrColdKelvin(float temperatur) {
         System.err.println("ERROR: printHotOrColdKelvin not implemented! Ignoring");
     }
 
