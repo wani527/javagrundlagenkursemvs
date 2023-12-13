@@ -11,4 +11,11 @@ public class Temperatur {
     public void printCelsius() {
         System.out.println(this.temperatur + "°C");
     }
+    public void printHotOrColdCelsius() {
+        if (this.temperatur > 24) {
+            System.out.println("It's hot: " + this.temperatur + "° Celsius!");
+        } else {
+            System.out.println("Its freezing: " + this.temperatur + "° Celsius!");
+        }
+    }
 }
