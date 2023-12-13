@@ -1,5 +1,4 @@
 public class Temperatur {
-
     float temperaturCelsius = 0f;
     float temperaturFahrenheit = 0f;
     float temperaturKelvin = 0f;
