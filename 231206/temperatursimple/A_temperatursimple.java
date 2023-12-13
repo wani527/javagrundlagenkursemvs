@@ -12,8 +12,6 @@ public class A_temperatursimple {
         temp3.calculateKelvin();
         temp3.printFahrenheit();
         temp3.printKelvin();
-        temp3.printHotOrColdKelvin();
-        temp3.printHotOrColdFahrenheit();
         temperaturscanner.close();
     }
 }
