@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class A_temperatursimple {
     public static void main(String[] args) {
-
         Scanner temperaturscanner = new Scanner(System.in);
         Temperatur temp1 = new Temperatur();
         temp1.printCelsius();
