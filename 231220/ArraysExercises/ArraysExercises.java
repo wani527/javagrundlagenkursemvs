@@ -22,5 +22,8 @@ public class ArraysExercises {
 		for (String name : names) {
 			System.out.println(name);
 		}
+		for (i=2; i<=(names.length - 2); i++) {
+			System.out.println(names[i]);
+		}
 	}
 }
