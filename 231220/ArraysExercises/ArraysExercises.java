@@ -1,29 +1,19 @@
 public class ArraysExercises {
 	public static void main (String[] args) {
-		String[] names = new String[10];
-		names[0] = "Primis";
-		names[1] = "wani527";
-		names[2] = "Peter";
-		names[3] = "Hanspeter";
-		names[4] = "Max";
-		names[5] = "Ben";
-		names[6] = "Peter-Hans";
-		names[7] = "Primis-Max";
-		names[8] = "Max-Primis";
-		names[9] = "Hans";
-		System.out.println(names[5]);
-		System.out.println(names[1]);
-		names[0] = "Primus";
+		names mynames = new names();
+		System.out.println(mynames[5]);
+		System.out.println(mynames[1]);
+		mynames[0] = "Primus";
 		System.out.println(names.length);
 		int i;
 		for (i=0; i<=9; i++) {
-			System.out.println(names[i]);
+			System.out.println(mynames[i]);
 		}
-		for (String name : names) {
+		for (String name : mynames) {
 			System.out.println(name);
 		}
-		for (i=2; i<=(names.length - 2); i++) {
-			System.out.println(names[i]);
+		for (i=2; i<=(mynames.length - 2); i++) {
+			System.out.println(mynames[i]);
 		}
 	}
 }
