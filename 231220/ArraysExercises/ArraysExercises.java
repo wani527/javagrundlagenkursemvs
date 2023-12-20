@@ -13,5 +13,7 @@ public class ArraysExercises {
 		names[9] = "Hans";
 		System.out.println(names[5]);
 		System.out.println(names[1]);
+		names[0] = "Primus";
+		System.out.println(names.length);
 	}
 }
