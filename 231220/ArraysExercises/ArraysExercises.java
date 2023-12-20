@@ -19,5 +19,8 @@ public class ArraysExercises {
 		for (i=0; i<=9; i++) {
 			System.out.println(names[i]);
 		}
+		for (String name : names) {
+			System.out.println(name);
+		}
 	}
 }
