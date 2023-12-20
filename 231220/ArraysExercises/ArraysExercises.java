@@ -1,6 +1,6 @@
 public class ArraysExercises {
 	public static void main (String[] args) {
-		names mynames = new names();
+		NamesArray myNames = new NamesArray();
 /*		System.out.println(mynames[5]);
 		System.out.println(mynames[1]);
 		mynames[0] = "Primus";
