@@ -12,4 +12,7 @@ public class NamesArray {
 		this.names[8] = "Max-Primis";
 		this.names[9] = "Hans";
 	}
+	public printValueAtindex5() {
+		System.out.println(this.names[5]);
+	}
 }

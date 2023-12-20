@@ -1,7 +1,7 @@
 public class ArraysExercises {
 	public static void main (String[] args) {
 		names mynames = new names();
-		System.out.println(mynames[5]);
+/*		System.out.println(mynames[5]);
 		System.out.println(mynames[1]);
 		mynames[0] = "Primus";
 		System.out.println(names.length);
@@ -14,6 +14,6 @@ public class ArraysExercises {
 		}
 		for (i=2; i<=(mynames.length - 2); i++) {
 			System.out.println(mynames[i]);
-		}
+		} */
 	}
 }
