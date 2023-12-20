@@ -15,5 +15,9 @@ public class ArraysExercises {
 		System.out.println(names[1]);
 		names[0] = "Primus";
 		System.out.println(names.length);
+		int i;
+		for (i=0; i<=9; i++) {
+			System.out.println(names[i]);
+		}
 	}
 }
