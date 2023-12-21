@@ -1,6 +1,6 @@
 public class NamesArray {
 	public String[] names = new String[10];
-	public void names() {
+	public NamesArray() {
 		this.names[0] = "Primis";
 		this.names[1] = "wani527";
 		this.names[2] = "Peter";
