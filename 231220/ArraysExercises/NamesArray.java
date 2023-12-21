@@ -11,6 +11,7 @@ public class NamesArray {
 		this.names[7] = "Primis-Max";
 		this.names[8] = "Max-Primis";
 		this.names[9] = "Hans";
+		this.names[0] = "Primus";
 	}
 	public void printValueAtindex5() {
 		System.out.println(this.names[5]);
