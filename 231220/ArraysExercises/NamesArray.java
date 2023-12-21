@@ -15,4 +15,7 @@ public class NamesArray {
 	public void printValueAtindex5() {
 		System.out.println(this.names[5]);
 	}
+	public void printMyName() {
+		System.out.println(this.names[1]);
+	}
 }
