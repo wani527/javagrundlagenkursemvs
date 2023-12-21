@@ -3,6 +3,7 @@ public class ArraysExercises {
 		NamesArray myNames = new NamesArray();
 		myNames.printValueAtindex5();
 		myNames.printMyName();
+		myNames.printArrayLength();
 /*		System.out.println(mynames[5]);
 		System.out.println(mynames[1]);
 		mynames[0] = "Primus";

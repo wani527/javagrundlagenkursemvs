@@ -19,4 +19,7 @@ public class NamesArray {
 	public void printMyName() {
 		System.out.println(this.names[1]);
 	}
+	public void printArrayLength() {
+		System.out.println(this.names.length);
+	}
 }
