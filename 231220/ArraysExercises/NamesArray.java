@@ -22,4 +22,10 @@ public class NamesArray {
 	public void printArrayLength() {
 		System.out.println(this.names.length);
 	}
+	public void loopThroughArray() {
+		int i;
+		for (i=0; i<=9; i++) {
+			System.out.println(this.names[i]);
+		}
+	}
 }

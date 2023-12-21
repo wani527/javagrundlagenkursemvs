@@ -4,6 +4,7 @@ public class ArraysExercises {
 		myNames.printValueAtindex5();
 		myNames.printMyName();
 		myNames.printArrayLength();
+		myNames.loopThroughArray();
 /*		System.out.println(mynames[5]);
 		System.out.println(mynames[1]);
 		mynames[0] = "Primus";
