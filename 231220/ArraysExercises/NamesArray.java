@@ -35,8 +35,16 @@ public class NamesArray {
 	}
 	public void printArrayValuesFromTo(int startPos, int endPos) {
 		int i;
-		for (i=startPos; i<=endPos; i++) {
-			System.out.println(this.names[i]);
+		if (startPos < endPos) {
+			for (i=startPos; i<=endPos; i++) {
+				System.out.println(this.names[i]); // ugly
+			}
+		} else if (startPos > endPos) {
+			for (i=startPos; i>=endPos; i--) {
+				System.out.println(this.names[i]); // ugly
+			}
+		} else {
+			System.out.println("Startposition can't be the same as endposition!"); // errors should be on err instead on out
 		}
 	}
 }
