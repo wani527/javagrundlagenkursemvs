@@ -13,11 +13,14 @@ public class NamesArray {
 		this.names[9] = "Hans";
 		this.names[0] = "Primus";
 	}
+	private void printNameByPosition(int position) {
+		System.out.println(this.names[position]);
+	}
 	public void printValueAtindex5() {
-		System.out.println(this.names[5]);
+		printNameByPosition(5);
 	}
 	public void printMyName() {
-		System.out.println(this.names[1]);
+		printNameByPosition(1);
 	}
 	public void printArrayLength() {
 		System.out.println(this.names.length);
@@ -25,7 +28,7 @@ public class NamesArray {
 	public void loopThroughArray() {
 		int i;
 		for (i=0; i<=9; i++) {
-			System.out.println(this.names[i]);
+			printNameByPosition(i);
 		}
 	}
 	public void foreachLoopThroughArray() {
@@ -37,14 +40,14 @@ public class NamesArray {
 		int i;
 		if (startPos < endPos) {
 			for (i=startPos; i<=endPos; i++) {
-				System.out.println(this.names[i]); // ugly
+				printNameByPosition(i);
 			}
 		} else if (startPos > endPos) {
 			for (i=startPos; i>=endPos; i--) {
-				System.out.println(this.names[i]); // ugly
+				printNameByPosition(i);
 			}
 		} else {
-			System.out.println("Startposition can't be the same as endposition!"); // errors should be on err instead on out
+			System.err.println("Startposition can't be the same as endposition!");
 		}
 	}
 }
