@@ -5,6 +5,7 @@ public class ArraysExercises {
 		myNames.printMyName();
 		myNames.printArrayLength();
 		myNames.loopThroughArray();
+		myNames.foreachLoopThroughArray();
 /*		System.out.println(mynames[5]);
 		System.out.println(mynames[1]);
 		mynames[0] = "Primus";

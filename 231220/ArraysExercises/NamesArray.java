@@ -28,4 +28,9 @@ public class NamesArray {
 			System.out.println(this.names[i]);
 		}
 	}
+	public void foreachLoopThroughArray() {
+		for (String name : this.names) {
+			System.out.println(name);
+		}
+	}
 }
