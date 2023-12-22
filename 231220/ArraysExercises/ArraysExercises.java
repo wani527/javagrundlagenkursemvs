@@ -1,6 +1,7 @@
 public class ArraysExercises {
 	public static void main (String[] args) {
 		NamesArray myNames = new NamesArray();
+		NumbersArray numbersArray = new NumbersArray();
 		myNames.printValueAtindex5();
 		myNames.printMyName();
 		myNames.printArrayLength();
