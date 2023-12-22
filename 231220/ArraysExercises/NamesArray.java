@@ -14,7 +14,7 @@ public class NamesArray {
 		this.names[0] = "Primus";
 	}
 	private void printNameByPosition(int position) {
-		System.out.println(this.names[position]);
+		System.out.println("name: " + this.names[position]);
 	}
 	public void printValueAtindex5() {
 		printNameByPosition(5);
