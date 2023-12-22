@@ -6,6 +6,7 @@ public class ArraysExercises {
 		myNames.printArrayLength();
 		myNames.loopThroughArray();
 		myNames.foreachLoopThroughArray();
+		myNames.printArrayValuesFromTo(2,8);
 /*		System.out.println(mynames[5]);
 		System.out.println(mynames[1]);
 		mynames[0] = "Primus";

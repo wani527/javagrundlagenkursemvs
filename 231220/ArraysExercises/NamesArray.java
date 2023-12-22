@@ -33,4 +33,10 @@ public class NamesArray {
 			System.out.println(name);
 		}
 	}
+	public void printArrayValuesFromTo(int startPos, int endPos) {
+		int i;
+		for (i=startPos; i<=endPos; i++) {
+			System.out.println(this.names[i]);
+		}
+	}
 }
